@@ -327,35 +327,13 @@ public class SearchCase extends UiAutomatorTestCase {
 				new UiSelector().resourceId("com.mappn.gfan:id/et_search"));
 		String keyWordTex = keyword.getText();
 		System.out.println("keyWordTex = " + keyword.getText());
-		/**判断defaultTex中是否包含keyWordTex*/
+		/** 判断defaultTex中是否包含keyWordTex */
 		if (defaultTex.indexOf(keyWordTex) != -1) {
-			System.out.println("defaultTex包含keyWordTex");
+			System.out.println("defaultTex包含keyWordTex :"
+					+ defaultTex.contains(keyWordTex));
+			System.out.println("keyWordTex = " + keyWordTex);
 		}
-		List<String> s1 = new ArrayList<String>();// 保存defaultTex的子串
-		List<String> s2 = new ArrayList<String>();// 保存keyWordTex的子串
-		List<String> result = new ArrayList<String>();// 保存相同的子串
-		// 求s1的子串
-		for (int i = 1; i < defaultTex.length(); i++) {
-			for (int j = 0; j <= defaultTex.length() - i; j++) {
-				s1.add(defaultTex.substring(j, j + 1));
-			}
-		}
-		// 求s2的子串
-		for (int i = 1; i < keyWordTex.length(); i++) {
-			for (int j = 0; j <= keyWordTex.length() - i; j++) {
-				s2.add(keyWordTex.substring(j, j + i));
-			}
-		}
-		System.out.println("defaultTex的子串  = " + s1);
-		System.out.println("keyWordTex的子串  = " + s2);
-		for (String s : s1)
-			if (s2.contains(s))
-				result.add(s);
-		for (String s : s2)
-			if (s1.contains(s))
-				result.add(s);
-		System.out.println("相同的子串 ： " + result);
-		/**调用testBackButton()方法返回首页*/
+		/** 调用testBackButton()方法返回首页 */
 		testBackButton();
 	}
 

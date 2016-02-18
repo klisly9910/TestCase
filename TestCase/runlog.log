@@ -9039,3 +9039,4773 @@ OK (1 test)
 
 INSTRUMENTATION_STATUS_CODE: -1
 
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for SearchCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\SearchCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1467 KB/s (12026 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.SearchCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+搜索默认关键字为： 大家都在搜 "春晚"
+
+搜索按钮是否为true ：true
+
+应用管理按钮是否为true ：true
+
+返回箭头是否存在： true
+
+搜索按钮是否存在： true
+
+默认关键词为： 搜索机锋应用商店
+
+搜索提示词是否存在： true
+
+共有 5个搜索提示
+
+搜索提示词语为 ： QQMINI 
+
+搜索提示词语为 ： QQ HD
+
+搜索提示词语为 ： QQ美食
+
+搜索提示词语为 ： QQ提醒
+
+搜索提示词语为 ： QQ邮箱
+
+搜索结果页面返回箭头是否存在： true
+
+搜索结果页面搜索按钮是否存在： true
+
+ 搜索结果页面搜索关键词为： QQMINI 
+
+搜索结果有 3个页面
+
+搜索结果页面为： 全部
+
+搜索结果页面为： 应用
+
+搜索结果页面为： 游戏
+
+全部列表有 1个应用
+
+全部页面app的名称为： QQMINI 
+
+应用列表有 1个应用
+
+应用页面app的名称为： QQMINI 
+
+游戏页面没有app提示： 
+
+defaultTex = 大家都在搜 "春晚"
+
+keyWordTex = 春晚
+
+defaultTex包含keyWordTex
+
+s2
+
+s2
+
+defaultTex的子串  = [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大, 家, 都, 大, 家]
+
+keyWordTex的子串  = [春, 晚]
+
+相同的子串 ： [春, 晚, 春, 晚, 春, 春, 晚]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 23.081
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for SearchCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\SearchCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1174 KB/s (12031 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.SearchCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+搜索默认关键字为： 大家都在搜 "春晚"
+
+搜索按钮是否为true ：true
+
+应用管理按钮是否为true ：true
+
+返回箭头是否存在： true
+
+搜索按钮是否存在： true
+
+默认关键词为： 搜索机锋应用商店
+
+搜索提示词是否存在： true
+
+共有 5个搜索提示
+
+搜索提示词语为 ： QQMINI 
+
+搜索提示词语为 ： QQ HD
+
+搜索提示词语为 ： QQ美食
+
+搜索提示词语为 ： QQ提醒
+
+搜索提示词语为 ： QQ邮箱
+
+搜索结果页面返回箭头是否存在： true
+
+搜索结果页面搜索按钮是否存在： true
+
+ 搜索结果页面搜索关键词为： QQMINI 
+
+搜索结果有 3个页面
+
+搜索结果页面为： 全部
+
+搜索结果页面为： 应用
+
+搜索结果页面为： 游戏
+
+全部列表有 1个应用
+
+全部页面app的名称为： QQMINI 
+
+应用列表有 1个应用
+
+应用页面app的名称为： QQMINI 
+
+游戏页面没有app提示： 
+
+defaultTex = 大家都在搜 "春晚"
+
+keyWordTex = 春晚
+
+defaultTex包含keyWordTex
+
+s2: [春]
+
+s2: [春, 晚]
+
+defaultTex的子串  = [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大, 家, 都, 大, 家]
+
+keyWordTex的子串  = [春, 晚]
+
+相同的子串 ： [春, 晚, 春, 晚, 春, 春, 晚]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 20.092
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for SearchCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\SearchCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1678 KB/s (12040 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.SearchCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+搜索默认关键字为： 大家都在搜 "春晚"
+
+搜索按钮是否为true ：true
+
+应用管理按钮是否为true ：true
+
+返回箭头是否存在： true
+
+搜索按钮是否存在： true
+
+默认关键词为： 搜索机锋应用商店
+
+搜索提示词是否存在： true
+
+共有 5个搜索提示
+
+搜索提示词语为 ： QQMINI 
+
+搜索提示词语为 ： QQ HD
+
+搜索提示词语为 ： QQ美食
+
+搜索提示词语为 ： QQ提醒
+
+搜索提示词语为 ： QQ邮箱
+
+搜索结果页面返回箭头是否存在： true
+
+搜索结果页面搜索按钮是否存在： true
+
+ 搜索结果页面搜索关键词为： QQMINI 
+
+搜索结果有 3个页面
+
+搜索结果页面为： 全部
+
+搜索结果页面为： 应用
+
+搜索结果页面为： 游戏
+
+全部列表有 1个应用
+
+全部页面app的名称为： QQMINI 
+
+应用列表有 1个应用
+
+应用页面app的名称为： QQMINI 
+
+游戏页面没有app提示： 
+
+defaultTex = 大家都在搜 "春晚"
+
+keyWordTex = 春晚
+
+defaultTex包含keyWordTex
+
+s1: [大]
+
+s1: [大, 家]
+
+s1: [大, 家, 都]
+
+s1: [大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜]
+
+s1: [大, 家, 都, 在, 搜,  ]
+
+s1: [大, 家, 都, 在, 搜,  , "]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, "]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  ]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , "]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  ]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , "]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  ]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , "]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  ]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大, 家, 都, 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大, 家, 都, 大, 家]
+
+s2: [春]
+
+s2: [春, 晚]
+
+defaultTex的子串  = [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大, 家, 都, 大, 家]
+
+keyWordTex的子串  = [春, 晚]
+
+相同的子串 ： [春, 晚, 春, 晚, 春, 春, 晚]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 22.704
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for SearchCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\SearchCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1678 KB/s (12040 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.SearchCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+搜索默认关键字为： 大家都在搜 "春晚"
+
+搜索按钮是否为true ：true
+
+应用管理按钮是否为true ：true
+
+返回箭头是否存在： true
+
+搜索按钮是否存在： true
+
+默认关键词为： 搜索机锋应用商店
+
+搜索提示词是否存在： true
+
+共有 5个搜索提示
+
+搜索提示词语为 ： Q  卡
+
+搜索提示词语为 ： 忍者Q传
+
+搜索提示词语为 ： Q立方桌面
+
+搜索提示词语为 ： Q点外卖 -- 前身为“叫饭”
+
+搜索提示词语为 ： 爱动漫-免费领Q币
+
+搜索结果页面返回箭头是否存在： true
+
+搜索结果页面搜索按钮是否存在： true
+
+ 搜索结果页面搜索关键词为： Q  卡
+
+搜索结果有 3个页面
+
+搜索结果页面为： 全部
+
+搜索结果页面为： 应用
+
+搜索结果页面为： 游戏
+
+全部列表有 5个应用
+
+全部页面app的名称为： Q  卡
+
+全部页面app的名称为： 卡都
+
+全部页面app的名称为： 忍者Q传
+
+全部页面app的名称为： 卡卡
+
+全部页面app的名称为： Q立方桌面
+
+应用列表有 5个应用
+
+应用页面app的名称为： Q  卡
+
+应用页面app的名称为： 卡都
+
+应用页面app的名称为： 卡卡
+
+应用页面app的名称为： Q立方桌面
+
+应用页面app的名称为： 卡游
+
+游戏列表有 5个应用
+
+游戏页面app的名称为： 忍者Q传
+
+游戏页面app的名称为： Q卡三国
+
+游戏页面app的名称为： 摩卡世界3D
+
+游戏页面app的名称为： 魔卡幻想
+
+游戏页面app的名称为： 去吧皮卡丘（充值五倍）
+
+defaultTex = 大家都在搜 "春晚"
+
+keyWordTex = 春晚
+
+s1: [大]
+
+s1: [大, 家]
+
+s1: [大, 家, 都]
+
+s1: [大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜]
+
+s1: [大, 家, 都, 在, 搜,  ]
+
+s1: [大, 家, 都, 在, 搜,  , "]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, "]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  ]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , "]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  ]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , "]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  ]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , "]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  ]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大, 家]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大, 家, 都]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大, 家, 都, 大]
+
+s1: [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大, 家, 都, 大, 家]
+
+s2: [春]
+
+s2: [春, 晚]
+
+defaultTex的子串  = [大, 家, 都, 在, 搜,  , ", 春, 晚, ", 大, 家, 都, 在, 搜,  , ", 春, 晚, 大, 家, 都, 在, 搜,  , ", 春, 大, 家, 都, 在, 搜,  , ", 大, 家, 都, 在, 搜,  , 大, 家, 都, 在, 搜, 大, 家, 都, 在, 大, 家, 都, 大, 家]
+
+keyWordTex的子串  = [春, 晚]
+
+相同的子串 ： [春, 晚, 春, 晚, 春, 春, 晚]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 23.156
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for SearchCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\SearchCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3773 KB/s (11596 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.SearchCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+搜索默认关键字为： 大家都在搜 "春晚"
+
+搜索按钮是否为true ：true
+
+应用管理按钮是否为true ：true
+
+返回箭头是否存在： true
+
+搜索按钮是否存在： true
+
+默认关键词为： 搜索机锋应用商店
+
+搜索提示词是否存在： true
+
+共有 5个搜索提示
+
+搜索提示词语为 ： QQMINI 
+
+搜索提示词语为 ： QQ HD
+
+搜索提示词语为 ： QQ美食
+
+搜索提示词语为 ： QQ提醒
+
+搜索提示词语为 ： QQ邮箱
+
+搜索结果页面返回箭头是否存在： true
+
+搜索结果页面搜索按钮是否存在： true
+
+ 搜索结果页面搜索关键词为： QQMINI 
+
+搜索结果有 3个页面
+
+搜索结果页面为： 全部
+
+搜索结果页面为： 应用
+
+搜索结果页面为： 游戏
+
+全部列表有 1个应用
+
+全部页面app的名称为： QQMINI 
+
+应用列表有 1个应用
+
+应用页面app的名称为： QQMINI 
+
+游戏页面没有app提示： 
+
+defaultTex = 大家都在搜 "春晚"
+
+keyWordTex = 春晚
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 21.742
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for SearchCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\SearchCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1616 KB/s (11597 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.SearchCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+搜索默认关键字为： 大家都在搜 "春晚"
+
+搜索按钮是否为true ：true
+
+应用管理按钮是否为true ：true
+
+返回箭头是否存在： true
+
+搜索按钮是否存在： true
+
+默认关键词为： 搜索机锋应用商店
+
+搜索提示词是否存在： true
+
+共有 5个搜索提示
+
+搜索提示词语为 ： QQMINI 
+
+搜索提示词语为 ： QQ HD
+
+搜索提示词语为 ： QQ美食
+
+搜索提示词语为 ： QQ提醒
+
+搜索提示词语为 ： QQ邮箱
+
+搜索结果页面返回箭头是否存在： true
+
+搜索结果页面搜索按钮是否存在： true
+
+ 搜索结果页面搜索关键词为： QQMINI 
+
+搜索结果有 3个页面
+
+搜索结果页面为： 全部
+
+搜索结果页面为： 应用
+
+搜索结果页面为： 游戏
+
+全部列表有 1个应用
+
+全部页面app的名称为： QQMINI 
+
+应用列表有 1个应用
+
+应用页面app的名称为： QQMINI 
+
+游戏页面没有app提示： 
+
+defaultTex = 大家都在搜 "春晚"
+
+keyWordTex = 春晚
+
+defaultTex包含keyWordTex :7
+
+keyWordTex = 春晚
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 20.832
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for SearchCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\SearchCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+2264 KB/s (11603 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.SearchCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+搜索默认关键字为： 大家都在搜 "春晚"
+
+搜索按钮是否为true ：true
+
+应用管理按钮是否为true ：true
+
+返回箭头是否存在： true
+
+搜索按钮是否存在： true
+
+默认关键词为： 搜索机锋应用商店
+
+搜索提示词是否存在： true
+
+共有 5个搜索提示
+
+搜索提示词语为 ： Q  卡
+
+搜索提示词语为 ： 忍者Q传
+
+搜索提示词语为 ： Q立方桌面
+
+搜索提示词语为 ： Q点外卖 -- 前身为“叫饭”
+
+搜索提示词语为 ： 爱动漫-免费领Q币
+
+搜索结果页面返回箭头是否存在： true
+
+搜索结果页面搜索按钮是否存在： true
+
+ 搜索结果页面搜索关键词为： Q  卡
+
+搜索结果有 3个页面
+
+搜索结果页面为： 全部
+
+搜索结果页面为： 应用
+
+搜索结果页面为： 游戏
+
+全部列表有 5个应用
+
+全部页面app的名称为： Q  卡
+
+全部页面app的名称为： 卡都
+
+全部页面app的名称为： 忍者Q传
+
+全部页面app的名称为： 卡卡
+
+全部页面app的名称为： Q立方桌面
+
+应用列表有 5个应用
+
+应用页面app的名称为： Q  卡
+
+应用页面app的名称为： 卡都
+
+应用页面app的名称为： 卡卡
+
+应用页面app的名称为： Q立方桌面
+
+应用页面app的名称为： 卡游
+
+游戏列表有 5个应用
+
+游戏页面app的名称为： 忍者Q传
+
+游戏页面app的名称为： Q卡三国
+
+游戏页面app的名称为： 摩卡世界3D
+
+游戏页面app的名称为： 魔卡幻想
+
+游戏页面app的名称为： 去吧皮卡丘（充值五倍）
+
+defaultTex = 大家都在搜 "春晚"
+
+keyWordTex = 春晚
+
+defaultTex包含keyWordTex :true
+
+keyWordTex = 春晚
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 27.051
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for SearchCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\SearchCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+2294 KB/s (11755 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.SearchCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+搜索默认关键字为： 大家都在搜 "春晚"
+
+搜索按钮是否为true ：true
+
+应用管理按钮是否为true ：true
+
+返回箭头是否存在： true
+
+搜索按钮是否存在： true
+
+默认关键词为： 搜索机锋应用商店
+
+搜索提示词是否存在： true
+
+共有 5个搜索提示
+
+搜索提示词语为 ： Q  卡
+
+搜索提示词语为 ： 忍者Q传
+
+搜索提示词语为 ： Q立方桌面
+
+搜索提示词语为 ： Q点外卖 -- 前身为“叫饭”
+
+搜索提示词语为 ： 爱动漫-免费领Q币
+
+搜索结果页面返回箭头是否存在： true
+
+搜索结果页面搜索按钮是否存在： true
+
+ 搜索结果页面搜索关键词为： Q  卡
+
+搜索结果有 3个页面
+
+搜索结果页面为： 全部
+
+搜索结果页面为： 应用
+
+搜索结果页面为： 游戏
+
+全部列表有 5个应用
+
+全部页面app的名称为： Q  卡
+
+全部页面app的名称为： 卡都
+
+全部页面app的名称为： 忍者Q传
+
+全部页面app的名称为： 卡卡
+
+全部页面app的名称为： Q立方桌面
+
+应用列表有 5个应用
+
+应用页面app的名称为： Q  卡
+
+应用页面app的名称为： 卡都
+
+应用页面app的名称为： 卡卡
+
+应用页面app的名称为： Q立方桌面
+
+应用页面app的名称为： 卡游
+
+游戏列表有 5个应用
+
+游戏页面app的名称为： 忍者Q传
+
+游戏页面app的名称为： Q卡三国
+
+游戏页面app的名称为： 摩卡世界3D
+
+游戏页面app的名称为： 魔卡幻想
+
+游戏页面app的名称为： 去吧皮卡丘（充值五倍）
+
+defaultTex = 大家都在搜 "春晚"
+
+keyWordTex = 春晚
+
+defaultTex包含keyWordTex :true
+
+keyWordTex = 春晚
+
+s1: [家都在搜 "春晚"]
+
+s1: [家都在搜 "春晚", 都在搜 "春晚"]
+
+s1: [家都在搜 "春晚", 都在搜 "春晚", 在搜 "春晚"]
+
+s1: [家都在搜 "春晚", 都在搜 "春晚", 在搜 "春晚", 搜 "春晚"]
+
+s1: [家都在搜 "春晚", 都在搜 "春晚", 在搜 "春晚", 搜 "春晚",  "春晚"]
+
+s1: [家都在搜 "春晚", 都在搜 "春晚", 在搜 "春晚", 搜 "春晚",  "春晚", "春晚"]
+
+s1: [家都在搜 "春晚", 都在搜 "春晚", 在搜 "春晚", 搜 "春晚",  "春晚", "春晚", 春晚"]
+
+s1: [家都在搜 "春晚", 都在搜 "春晚", 在搜 "春晚", 搜 "春晚",  "春晚", "春晚", 春晚", 晚"]
+
+s1: [家都在搜 "春晚", 都在搜 "春晚", 在搜 "春晚", 搜 "春晚",  "春晚", "春晚", 春晚", 晚", "]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 24.211
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for SearchCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\SearchCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1276 KB/s (11771 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.SearchCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+搜索默认关键字为： 大家都在搜 "春晚"
+
+搜索按钮是否为true ：true
+
+应用管理按钮是否为true ：true
+
+返回箭头是否存在： true
+
+搜索按钮是否存在： true
+
+默认关键词为： 搜索机锋应用商店
+
+搜索提示词是否存在： true
+
+共有 5个搜索提示
+
+搜索提示词语为 ： QQMINI 
+
+搜索提示词语为 ： QQ HD
+
+搜索提示词语为 ： QQ美食
+
+搜索提示词语为 ： QQ提醒
+
+搜索提示词语为 ： QQ邮箱
+
+搜索结果页面返回箭头是否存在： true
+
+搜索结果页面搜索按钮是否存在： true
+
+ 搜索结果页面搜索关键词为： QQMINI 
+
+搜索结果有 3个页面
+
+搜索结果页面为： 全部
+
+搜索结果页面为： 应用
+
+搜索结果页面为： 游戏
+
+全部列表有 1个应用
+
+全部页面app的名称为： QQMINI 
+
+应用列表有 1个应用
+
+应用页面app的名称为： QQMINI 
+
+游戏页面没有app提示： 
+
+defaultTex = 大家都在搜 "春晚"
+
+keyWordTex = 春晚
+
+defaultTex包含keyWordTex :true
+
+keyWordTex = 春晚
+
+s1: ["春晚"]
+
+s1: ["春晚", 春晚"]
+
+s1: ["春晚", 春晚", 晚"]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.SearchCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 19.579
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1076 KB/s (12139 bytes in 0.011s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二标签
+
+二级标签名称： 应用管理
+
+二级标签名称： 应用管理
+
+二级标签名称： 应用管理
+
+二级标签名称： 应用管理
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 18.622
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1482 KB/s (12150 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二标签
+
+二级标签名称： 应用管理
+
+二级标签名称： 应用管理
+
+二级标签名称： 应用管理
+
+二级标签名称： 应用管理
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 17.21
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1316 KB/s (12145 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二标签
+
+二级标签名称： 应用管理
+
+二级标签名称： 应用管理
+
+二级标签名称： 应用管理
+
+二级标签名称： 应用管理
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 17.695
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1316 KB/s (12146 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二标签
+
+二级标签名称： 应用管理
+
+二级标签名称： 任务
+
+二级标签名称： 已安装
+
+二级标签名称： 升级
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 11.202
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1696 KB/s (12171 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.865
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1696 KB/s (12172 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： [任务]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.64
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1698 KB/s (12177 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： [任务]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.7
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1079 KB/s (12171 bytes in 0.011s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： [任务]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.887
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+2376 KB/s (12177 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： [任务]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.03
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1351 KB/s (12463 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： [任务]
+
+二级标签名称： [任务]
+
+二级标签名称： [任务]
+
+二级标签名称： [任务]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.17
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1218 KB/s (12484 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： [任务]
+
+页面分类模块有 2个
+
+页面分类模块名称： 手动开始(点击可删除)
+
+页面分类模块名称： 下载完成(已存到SD卡/gfan/market)
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 8.497
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1013 KB/s (12465 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=1, CHILD=UiSelector[CLASS=android.widget.TextView], RESOURCE_ID=com.mappn.gfan:id/page_indicator]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.AppManageCase.testSecondTag(AppManageCase.java:80)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:24)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=1, CHILD=UiSelector[CLASS=android.widget.TextView], RESOURCE_ID=com.mappn.gfan:id/page_indicator]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.AppManageCase.testSecondTag(AppManageCase.java:80)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:24)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 19.604
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1216 KB/s (12467 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=1, CHILD=UiSelector[CLASS=android.widget.TextView], RESOURCE_ID=com.mappn.gfan:id/page_indicator]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.AppManageCase.testSecondTag(AppManageCase.java:80)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:24)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=1, CHILD=UiSelector[CLASS=android.widget.TextView], RESOURCE_ID=com.mappn.gfan:id/page_indicator]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.AppManageCase.testSecondTag(AppManageCase.java:80)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:24)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 17.897
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1106 KB/s (12471 bytes in 0.011s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 2个
+
+页面分类模块名称： 手动开始(点击可删除)
+
+页面分类模块名称： 下载完成(已存到SD卡/gfan/market)
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 9.112
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1217 KB/s (12475 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 2个
+
+页面分类模块名称： 手动开始(点击可删除)
+
+页面分类模块名称： 下载完成(已存到SD卡/gfan/market)
+
+页面分类模块名称： [手动开始(点击可删除), 下载完成(已存到SD卡/gfan/market)]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.432
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+4126 KB/s (12684 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 2个
+
+页面分类模块名称： [手动开始(点击可删除), 下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 6个应用
+
+任务页面app名称： [139邮箱, 咪咕音乐, Google Play服务, 灵犀语音助手, 塔读文学, 华为支付]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 9.101
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1388 KB/s (12809 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 2个
+
+页面分类模块名称： [手动开始(点击可删除), 下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 6个应用
+
+任务页面app名称： [139邮箱, 咪咕音乐, Google Play服务, 灵犀语音助手, 塔读文学, 华为支付]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 10.097
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1151 KB/s (12976 bytes in 0.011s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 2个
+
+页面分类模块名称： [手动开始(点击可删除), 下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 6个应用
+
+任务页面app名称： [139邮箱, 咪咕音乐, Google Play服务, 灵犀语音助手, 塔读文学, 华为支付]
+
+点击删除弹出提示框： 删除提示
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/tv_option_delete]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.AppManageCase.testOperationBtn(AppManageCase.java:188)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:29)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/tv_option_delete]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.AppManageCase.testOperationBtn(AppManageCase.java:188)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:29)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 24.709
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+2533 KB/s (12977 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 2个
+
+页面分类模块名称： [手动开始(点击可删除), 下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 6个应用
+
+任务页面app名称： [139邮箱, 咪咕音乐, Google Play服务, 灵犀语音助手, 塔读文学, 华为支付]
+
+点击删除弹出提示框： 删除提示
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 13.911
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+1407 KB/s (12977 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 1个
+
+页面分类模块名称： [下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 7个应用
+
+任务页面app名称： [咪咕音乐, Google Play服务, 灵犀语音助手, 塔读文学, 华为支付, 文件管理, 和视界]
+
+点击删除弹出提示框： 删除提示
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 15.836
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1451 KB/s (13384 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 32
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 1个
+
+页面分类模块名称： [下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 7个应用
+
+任务页面app名称： [Google Play服务, 灵犀语音助手, 塔读文学, 华为支付, 文件管理, 和视界, MM商场]
+
+点击删除弹出提示框： 删除提示
+
+页面分类模块有 1个
+
+页面分类模块名称： [下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 7个应用
+
+任务页面app名称： [灵犀语音助手, 塔读文学, 华为支付, 文件管理, 和视界, MM商场, WPS Office]
+
+已安装页面有 2个应用
+
+已安装页面appname：[豌豆荚连接服务, Root精灵]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/tv_option_open]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.AppManageCase.testInstalledOperationBtn(AppManageCase.java:240)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:31)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/tv_option_open]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.AppManageCase.testInstalledOperationBtn(AppManageCase.java:240)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:31)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 31.727
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+4353 KB/s (13384 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 27
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 1个
+
+页面分类模块名称： [下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 7个应用
+
+任务页面app名称： [随e行WLAN, 华为输入法, 搜狐视频, 咪咕游戏, 和阅读, 华为商城, 和通讯录]
+
+点击删除弹出提示框： 删除提示
+
+页面分类模块有 1个
+
+页面分类模块名称： [下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 7个应用
+
+任务页面app名称： [华为输入法, 搜狐视频, 咪咕游戏, 和阅读, 华为商城, 和通讯录, 亲情关怀]
+
+已安装页面有 2个应用
+
+已安装页面appname：[豌豆荚连接服务, Root精灵]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/tv_option_uninstall]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.AppManageCase.testInstalledOperationBtn(AppManageCase.java:245)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:31)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/tv_option_uninstall]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.AppManageCase.testInstalledOperationBtn(AppManageCase.java:245)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:31)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 34.088
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1306 KB/s (13390 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 26
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 2个
+
+页面分类模块名称： [下载中, 下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 5个应用
+
+任务页面app名称： [擂台抢亲, 咪咕爱唱-唱歌交友，全民k歌,一起唱吧！, 哈图 - 二次元社交聊天交友神器, 脸脸, 灵犀语音助手]
+
+点击删除弹出提示框： 删除提示
+
+页面分类模块有 2个
+
+页面分类模块名称： [下载中, 下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 5个应用
+
+任务页面app名称： [咪咕爱唱-唱歌交友，全民k歌,一起唱吧！, 哈图 - 二次元社交聊天交友神器, 脸脸, 灵犀语音助手, 塔读文学]
+
+已安装页面有 3个应用
+
+已安装页面appname：[欧朋浏览器, 豌豆荚连接服务, Root精灵]
+
+已安装页面有 2个应用
+
+已安装页面appname：[豌豆荚连接服务, Root精灵]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 71.584
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1192 KB/s (13447 bytes in 0.011s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 26
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 1个
+
+页面分类模块名称： [下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 7个应用
+
+任务页面app名称： [华为输入法, 搜狐视频, 咪咕游戏, 华为商城, 和通讯录, 亲情关怀, 灵犀语音助手]
+
+点击删除弹出提示框： 删除提示
+
+====分割线====删除后重新获取应用====
+
+页面分类模块有 1个
+
+页面分类模块名称： [下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 7个应用
+
+任务页面app名称： [搜狐视频, 咪咕游戏, 华为商城, 和通讯录, 亲情关怀, 灵犀语音助手, 塔读文学]
+
+已安装页面有 5个应用
+
+已安装页面appname：[哈图, 脸脸, 咪咕爱唱, 豌豆荚连接服务, Root精灵]
+
+====分割线====卸载后重新获取应用====
+
+已安装页面有 4个应用
+
+已安装页面appname：[脸脸, 咪咕爱唱, 豌豆荚连接服务, Root精灵]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 29.265
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1243 KB/s (14017 bytes in 0.011s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 25
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 1个
+
+页面分类模块名称： [下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 7个应用
+
+任务页面app名称： [搜狐视频, 咪咕游戏, 华为商城, 和通讯录, 亲情关怀, 灵犀语音助手, 塔读文学]
+
+点击删除弹出提示框： 删除提示
+
+====分割线====删除后重新获取应用====
+
+页面分类模块有 1个
+
+页面分类模块名称： [下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 7个应用
+
+任务页面app名称： [咪咕游戏, 华为商城, 和通讯录, 亲情关怀, 灵犀语音助手, 塔读文学, 华为支付]
+
+已安装页面有 5个应用
+
+已安装页面appname：[脸脸, 咪咕爱唱, 豌豆荚, 豌豆荚连接服务, Root精灵]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/tv_option_deatil]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.AppManageCase.testInstalledOperationBtn(AppManageCase.java:242)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:31)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/tv_option_deatil]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.AppManageCase.testInstalledOperationBtn(AppManageCase.java:242)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:31)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 30.656
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+1139 KB/s (14017 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+应用管理右上角更新数量为： 25
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： 任务
+
+页面分类模块有 1个
+
+页面分类模块名称： [下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 7个应用
+
+任务页面app名称： [咪咕游戏, 华为商城, 和通讯录, 亲情关怀, 灵犀语音助手, 塔读文学, 华为支付]
+
+点击删除弹出提示框： 删除提示
+
+====分割线====删除后重新获取应用====
+
+页面分类模块有 1个
+
+页面分类模块名称： [下载完成(已存到SD卡/gfan/market)]
+
+任务页面有 7个应用
+
+任务页面app名称： [华为商城, 和通讯录, 亲情关怀, 灵犀语音助手, 塔读文学, 华为支付, 土豆]
+
+已安装页面有 5个应用
+
+已安装页面appname：[脸脸, 咪咕爱唱, 豌豆荚, 豌豆荚连接服务, Root精灵]
+
+====分割线====卸载后重新获取应用====
+
+已安装页面有 4个应用
+
+已安装页面appname：[咪咕爱唱, 豌豆荚, 豌豆荚连接服务, Root精灵]
+
+升级页面有 6个应用
+
+升级页面appname：[139邮箱, 百度, 备份与恢复, 大众点评, 飞信, 和通讯录]
+
+====分割线====卸载后重新获取应用====
+
+已安装页面有 4个应用
+
+已安装页面appname：[咪咕爱唱, 豌豆荚, 豌豆荚连接服务, Root精灵]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/tv_option_ignore]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.AppManageCase.testUpdateOperationBtn(AppManageCase.java:354)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:33)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/tv_option_ignore]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.AppManageCase.testUpdateOperationBtn(AppManageCase.java:354)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:33)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 62.533
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
