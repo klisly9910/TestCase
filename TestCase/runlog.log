@@ -19944,3 +19944,1950 @@ Tests run: 1,  Failures: 0,  Errors: 1
 
 INSTRUMENTATION_STATUS_CODE: -1
 
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+5165 KB/s (15884 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： [任务]
+
+任务页面没有数据： 你怎么忍心让我空着呢，快去精品推荐看看吧~
+
+任务页面没有数据： 你怎么忍心让我空着呢，快去精品推荐看看吧~
+
+[已安装]页面有 2个应用
+
+[已安装]页面appname：[豌豆荚连接服务, 微信]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/tv_option_uninstall]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.AppManageCase.testInstalledOperationBtn(AppManageCase.java:313)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:31)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/tv_option_uninstall]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.AppManageCase.testInstalledOperationBtn(AppManageCase.java:313)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:31)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 26.894
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for AppManageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\AppManageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+2214 KB/s (15884 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.AppManageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+页面名称为： 应用管理
+
+应用管理界面有 4个二级标签
+
+二级标签名称： [任务]
+
+任务页面没有数据： 你怎么忍心让我空着呢，快去精品推荐看看吧~
+
+任务页面没有数据： 你怎么忍心让我空着呢，快去精品推荐看看吧~
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/no_data]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.AppManageCase.testInstalledPage(AppManageCase.java:263)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:30)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.AppManageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/no_data]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.AppManageCase.testInstalledPage(AppManageCase.java:263)
+
+	at com.Gfan.AppManageCase.testCase(AppManageCase.java:30)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 19.52
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for ApplicationPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\ApplicationPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1442 KB/s (17734 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.ApplicationPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.ApplicationPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+======获取分类列表二级标签-并依次点击========
+
+共有 5个二级标签
+
+二级标签为 ： [分类, 排行, 推荐, 新品, 锋神榜]
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [微信, 手机QQ, Google搜索, UC浏览器-头条资讯, 谷歌地图]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 微信
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [牛板金, 塔读文学, 哇屋装修, 白鹤医生, 龙珠直播]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 牛板金
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [狗狗助手, 开心红包, 微信抢红包, 精真估商家版, 有来]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 狗狗助手
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/app_name]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.ApplicationPageCase.testGetItemName(ApplicationPageCase.java:105)
+
+	at com.Gfan.ApplicationPageCase.testNewApp(ApplicationPageCase.java:187)
+
+	at com.Gfan.ApplicationPageCase.testCase(ApplicationPageCase.java:26)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:372)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+======[锋神榜]========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/common_list_item_name]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.ApplicationPageCase.testFsBang(ApplicationPageCase.java:203)
+
+	at com.Gfan.ApplicationPageCase.testCase(ApplicationPageCase.java:27)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.ApplicationPageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/common_list_item_name]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.ApplicationPageCase.testFsBang(ApplicationPageCase.java:203)
+
+	at com.Gfan.ApplicationPageCase.testCase(ApplicationPageCase.java:27)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 71.079
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for ApplicationPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\ApplicationPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1085 KB/s (17792 bytes in 0.016s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.ApplicationPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.ApplicationPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+======获取分类列表二级标签-并依次点击========
+
+共有 5个二级标签
+
+二级标签为 ： [分类, 排行, 推荐, 新品, 锋神榜]
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [微信, 手机QQ, Google搜索, UC浏览器-头条资讯, 谷歌地图]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 微信
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [牛板金, 塔读文学, 哇屋装修, 白鹤医生, 龙珠直播]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 牛板金
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [狗狗助手, 开心红包, 微信抢红包, 精真估商家版, 有来]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 狗狗助手
+
+appname是否一致： true
+
+======[锋神榜]========
+
+锋神榜appname：甘草医生
+
+======获取[分类]并且挨个点击进入分类页面========
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+共有 5个二级标签
+
+二级标签为 ： [分类, 排行, 推荐, 新品, 锋神榜]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 甘草医生
+
+appname是否一致： true
+
+======分类子类-[上升最快]========
+
+======获取列表app========
+
+列表中的app为 ： [甘草医生, 她她头条]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 甘草医生
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [狗狗助手, 开心红包, 微信抢红包, 精真估商家版, 有来]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 狗狗助手
+
+appname是否一致： true
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [狗狗助手, 开心红包, 微信抢红包, 精真估商家版, 有来]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 狗狗助手
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [牛板金, 塔读文学, 哇屋装修, 白鹤医生, 龙珠直播]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 牛板金
+
+appname是否一致： true
+
+分类列表 ：[实用工具]
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+二级标签为 ： []
+
+======获取appname名称-点击某个app进入详情========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/common_list_item_name]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.ApplicationPageCase.testGetItemName(ApplicationPageCase.java:99)
+
+	at com.Gfan.ApplicationPageCase.testGetclassifyTag(ApplicationPageCase.java:256)
+
+	at com.Gfan.ApplicationPageCase.testCase(ApplicationPageCase.java:30)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.ApplicationPageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/common_list_item_name]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.ApplicationPageCase.testGetItemName(ApplicationPageCase.java:99)
+
+	at com.Gfan.ApplicationPageCase.testGetclassifyTag(ApplicationPageCase.java:256)
+
+	at com.Gfan.ApplicationPageCase.testCase(ApplicationPageCase.java:30)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 142.704
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for ApplicationPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\ApplicationPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+1444 KB/s (17764 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.ApplicationPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.ApplicationPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+======获取分类列表二级标签-并依次点击========
+
+共有 5个二级标签
+
+二级标签为 ： [分类, 排行, 推荐, 新品, 锋神榜]
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [微信, 手机QQ, Google搜索, UC浏览器-头条资讯, 谷歌地图]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 微信
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [微信, 手机QQ, Google搜索, UC浏览器-头条资讯, 谷歌地图]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 微信
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [微信, 手机QQ, Google搜索, UC浏览器-头条资讯, 谷歌地图]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 微信
+
+appname是否一致： true
+
+======[锋神榜]========
+
+锋神榜appname：微信
+
+======获取[分类]并且挨个点击进入分类页面========
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+共有 4个二级标签
+
+二级标签为 ： [推荐, 排行, 新品, 上升最快]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： QQ邮箱
+
+appname是否一致： true
+
+======分类子类-[上升最快]========
+
+======获取列表app========
+
+列表中的app为 ： [QQ邮箱, 办公文档查看器, 腾讯相册管家, 我的世界联机平台, Enlight]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： QQ邮箱
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [超级抢红包助手, 植物大战僵尸2攻略百宝箱, 卡帮, VAA8, 盛大机构服务]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 超级抢红包助手
+
+appname是否一致： true
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [Google搜索, QQ邮箱, 手机百度, 墨迹天气, QQ同步助手-软件短信通讯录备份]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： Google搜索
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [超级抢红包助手, 植物大战僵尸2攻略百宝箱, 卡帮, VAA8, 盛大机构服务]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 超级抢红包助手
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/app_name]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.ApplicationPageCase.testGetItemName(ApplicationPageCase.java:107)
+
+	at com.Gfan.ApplicationPageCase.testTuiJianPage(ApplicationPageCase.java:178)
+
+	at com.Gfan.ApplicationPageCase.testGetclassifyTag(ApplicationPageCase.java:260)
+
+	at com.Gfan.ApplicationPageCase.testClassify(ApplicationPageCase.java:240)
+
+	at com.Gfan.ApplicationPageCase.testCase(ApplicationPageCase.java:29)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:372)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+分类列表 ：[实用工具]
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+二级标签为 ： []
+
+======获取appname名称-点击某个app进入详情========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/common_list_item_name]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.ApplicationPageCase.testGetItemName(ApplicationPageCase.java:99)
+
+	at com.Gfan.ApplicationPageCase.testGetclassifyTag(ApplicationPageCase.java:256)
+
+	at com.Gfan.ApplicationPageCase.testCase(ApplicationPageCase.java:30)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.ApplicationPageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/common_list_item_name]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.ApplicationPageCase.testGetItemName(ApplicationPageCase.java:99)
+
+	at com.Gfan.ApplicationPageCase.testGetclassifyTag(ApplicationPageCase.java:256)
+
+	at com.Gfan.ApplicationPageCase.testCase(ApplicationPageCase.java:30)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 142.049
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for ApplicationPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\ApplicationPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1444 KB/s (17764 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.ApplicationPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.ApplicationPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+======获取分类列表二级标签-并依次点击========
+
+共有 5个二级标签
+
+二级标签为 ： [分类, 排行, 推荐, 新品, 锋神榜]
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： []
+
+======获取appname名称-点击某个app进入详情========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/common_list_item_name]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.ApplicationPageCase.testGetItemName(ApplicationPageCase.java:99)
+
+	at com.Gfan.ApplicationPageCase.testRankPage(ApplicationPageCase.java:165)
+
+	at com.Gfan.ApplicationPageCase.testCase(ApplicationPageCase.java:25)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.ApplicationPageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/common_list_item_name]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.ApplicationPageCase.testGetItemName(ApplicationPageCase.java:99)
+
+	at com.Gfan.ApplicationPageCase.testRankPage(ApplicationPageCase.java:165)
+
+	at com.Gfan.ApplicationPageCase.testCase(ApplicationPageCase.java:25)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 18.297
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for ApplicationPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\ApplicationPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+1926 KB/s (17764 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.ApplicationPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.ApplicationPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+======获取分类列表二级标签-并依次点击========
+
+共有 5个二级标签
+
+二级标签为 ： [分类, 排行, 推荐, 新品, 锋神榜]
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [微信, 手机QQ, Google搜索, UC浏览器-头条资讯, 谷歌地图]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 微信
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [微信, 手机QQ, Google搜索, UC浏览器-头条资讯, 谷歌地图]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 微信
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [微信, 手机QQ, Google搜索, UC浏览器-头条资讯, 谷歌地图]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 微信
+
+appname是否一致： true
+
+======[锋神榜]========
+
+锋神榜appname：微信
+
+======获取[分类]并且挨个点击进入分类页面========
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+共有 4个二级标签
+
+二级标签为 ： [推荐, 排行, 新品, 上升最快]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： QQ邮箱
+
+appname是否一致： true
+
+======分类子类-[上升最快]========
+
+======获取列表app========
+
+列表中的app为 ： [QQ邮箱, 办公文档查看器, 腾讯相册管家, 我的世界联机平台, Enlight]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： QQ邮箱
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [超级抢红包助手, 植物大战僵尸2攻略百宝箱, 卡帮, VAA8, 盛大机构服务]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 超级抢红包助手
+
+appname是否一致： true
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [Google搜索, QQ邮箱, 手机百度, 墨迹天气, QQ同步助手-软件短信通讯录备份]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： Google搜索
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [Google搜索, QQ邮箱, 手机百度, 墨迹天气, QQ同步助手-软件短信通讯录备份]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： Google搜索
+
+appname是否一致： true
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+共有 4个二级标签
+
+二级标签为 ： [推荐, 排行, 新品, 上升最快]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 谷歌拼音输入法
+
+appname是否一致： true
+
+======分类子类-[上升最快]========
+
+======获取列表app========
+
+列表中的app为 ： [谷歌拼音输入法, 触宝输入法, 搜狗输入法, 讯飞输入法手机版, QQ输入法]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 谷歌拼音输入法
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [万能五笔输入法, 光阴, 飞快输入法, 方便程序锁, 多功能键盘]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 万能五笔输入法
+
+appname是否一致： true
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [搜狗输入法, 谷歌拼音输入法, 百度手机输入法, 讯飞输入法手机版, 触宝输入法]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 搜狗输入法
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [万能五笔输入法, 光阴, 飞快输入法, 方便程序锁, 多功能键盘]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 万能五笔输入法
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+共有 4个二级标签
+
+二级标签为 ： [推荐, 排行, 新品, 上升最快]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 美团
+
+appname是否一致： true
+
+======分类子类-[上升最快]========
+
+======获取列表app========
+
+列表中的app为 ： [美团, 索尼商城, 1号店, 唯品特卖会, 蜜芽-母婴特卖]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 美团
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [慧生惠, 不二海淘(卖家版), 不二海淘, 奔宇脚轮]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 慧生惠
+
+appname是否一致： true
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [美团, 淘宝, 京东, 天猫, 唯品特卖会]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 美团
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [慧生惠, 不二海淘(卖家版), 不二海淘, 奔宇脚轮, 123快购]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 慧生惠
+
+appname是否一致： true
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+共有 4个二级标签
+
+二级标签为 ： [推荐, 排行, 新品, 上升最快]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 我的世界盒子
+
+appname是否一致： true
+
+======分类子类-[上升最快]========
+
+======获取列表app========
+
+列表中的app为 ： [我的世界盒子, 小猿搜题, 开卷小说, 黑客入门, 蝌蚪小说阅读器]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 我的世界盒子
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [美文FM, 微语录精选, 魔方格口袋题库, 史上最坑爹的游戏5攻略百宝箱, 留夏]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 美文FM
+
+appname是否一致： true
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [小猿搜题, 我的世界盒子, 掌阅iReader-电子书小说阅读, 书旗小说, 口袋故事]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 小猿搜题
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [美文FM, 微语录精选, 魔方格口袋题库, 史上最坑爹的游戏5攻略百宝箱, 留夏]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 美文FM
+
+appname是否一致： true
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+共有 4个二级标签
+
+二级标签为 ： [推荐, 排行, 新品, 上升最快]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 美图秀秀
+
+appname是否一致： true
+
+======分类子类-[上升最快]========
+
+======获取列表app========
+
+列表中的app为 ： [美图秀秀, 自拍相机美颜神器, Pixlr Express图片处理, 全能相机, 美艳相机]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 美图秀秀
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [拼图工厂, 动态表情工厂, 智能P图, 闪卡相机, AV照妖镜]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 拼图工厂
+
+appname是否一致： true
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [美图秀秀, 自拍相机美颜神器, 全能相机, 美颜相机-把手机变成自拍神器, 美拍 - 直播功能来了，手机直播也能美颜哦！]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 美图秀秀
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [拼图工厂, 动态表情工厂, 智能P图, 闪卡相机, AV照妖镜]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 拼图工厂
+
+appname是否一致： true
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+共有 4个二级标签
+
+二级标签为 ： [推荐, 排行, 新品, 上升最快]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 猎豹清理大师（原金山清理大师）
+
+appname是否一致： true
+
+======分类子类-[上升最快]========
+
+======获取列表app========
+
+列表中的app为 ： [猎豹清理大师（原金山清理大师）, 百度云（网盘/照片备份）, 360手机卫士, KingRoot-一键权限获取，授权管理, 猎豹安全大师]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 猎豹清理大师（原金山清理大师）
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [万能一键root授权, 亚信安全虚拟手机, 快定, 天天抢红包, 开心抢红包]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 万能一键root授权
+
+appname是否一致： true
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [猎豹清理大师（原金山清理大师）, 百度云（网盘/照片备份）, 360手机卫士, KingRoot-一键权限获取，授权管理, Google Play服务]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 猎豹清理大师（原金山清理大师）
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [万能一键root授权, 亚信安全虚拟手机, 快定, 天天抢红包, 开心抢红包]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 万能一键root授权
+
+appname是否一致： true
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+共有 4个二级标签
+
+二级标签为 ： [推荐, 排行, 新品, 上升最快]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 百度翻译（语音会话翻译）
+
+appname是否一致： true
+
+======分类子类-[上升最快]========
+
+======获取列表app========
+
+列表中的app为 ： [百度翻译（语音会话翻译）, 有道翻译官, 有道词典-最好用的英语日语韩语多语种互译学习翻译词典, 外教社计算机英语词典 海词出品, 实用英汉双解词典]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 百度翻译（语音会话翻译）
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [书法字典, 万词宝, 学易单词王, 英汉翻译, 移动翻译]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 书法字典
+
+appname是否一致： true
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [有道词典-最好用的英语日语韩语多语种互译学习翻译词典, 百度翻译（语音会话翻译）, 有道翻译官, 简易背单词:英语四级六级, 新华字典-综合]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 有道词典-最好用的英语日语韩语多语种互译学习翻译词典
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [书法字典, 万词宝, 学易单词王, 英汉翻译, 移动翻译]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 书法字典
+
+appname是否一致： true
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+共有 4个二级标签
+
+二级标签为 ： [推荐, 排行, 新品, 上升最快]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 网易新闻（官方）
+
+appname是否一致： true
+
+======分类子类-[上升最快]========
+
+======获取列表app========
+
+列表中的app为 ： [网易新闻（官方）, 搜狐新闻-阅读资讯, 畅读, 机战王终极攻略, 愤怒的小鸟2终极攻略]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 网易新闻（官方）
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [创客星球, 文化灵台, 清远美食, 魅力崆峒, 点拨池州]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 创客星球
+
+appname是否一致： true
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： [今日头条, 凤凰视频, Flipboard中文版, 畅读, 网易新闻（官方）]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 今日头条
+
+appname是否一致： true
+
+======[推荐]========
+
+======获取列表app========
+
+列表中的app为 ： [创客星球, 文化灵台, 清远美食, 魅力崆峒, 点拨池州]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 创客星球
+
+appname是否一致： true
+
+分类列表 ：[实用工具, 输入法, 网络购物, 教育阅读, 拍照摄影, 系统工具, 词典翻译, 资讯新闻]
+
+======分类子类-二级标签========
+
+======获取分类列表二级标签-并依次点击========
+
+共有 5个二级标签
+
+二级标签为 ： [分类, 排行, 推荐, 新品, 锋神榜]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 甘草医生
+
+appname是否一致： true
+
+======分类子类-[上升最快]========
+
+======获取列表app========
+
+列表中的app为 ： [甘草医生, 她她头条]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 甘草医生
+
+appname是否一致： true
+
+======[新品]========
+
+======获取列表app========
+
+列表中的app为 ： [狗狗助手, 开心红包, 微信抢红包, 精真估商家版, 有来]
+
+======获取appname名称-点击某个app进入详情========
+
+app名称为 ： 狗狗助手
+
+appname是否一致： true
+
+======[排行]========
+
+======获取列表app========
+
+列表中的app为 ： []
+
+======获取appname名称-点击某个app进入详情========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/common_list_item_name]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.ApplicationPageCase.testGetItemName(ApplicationPageCase.java:99)
+
+	at com.Gfan.ApplicationPageCase.testRankPage(ApplicationPageCase.java:165)
+
+	at com.Gfan.ApplicationPageCase.testGetclassifyTag(ApplicationPageCase.java:259)
+
+	at com.Gfan.ApplicationPageCase.testCase(ApplicationPageCase.java:30)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.ApplicationPageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/common_list_item_name]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.Gfan.ApplicationPageCase.testGetItemName(ApplicationPageCase.java:99)
+
+	at com.Gfan.ApplicationPageCase.testRankPage(ApplicationPageCase.java:165)
+
+	at com.Gfan.ApplicationPageCase.testGetclassifyTag(ApplicationPageCase.java:259)
+
+	at com.Gfan.ApplicationPageCase.testCase(ApplicationPageCase.java:30)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 725.925
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
