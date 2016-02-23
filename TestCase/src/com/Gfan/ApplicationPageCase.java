@@ -3,6 +3,8 @@ package com.Gfan;
 import java.io.File;
 import java.util.ArrayList;
 
+import junit.framework.Assert;
+
 import com.android.uiautomator.core.UiCollection;
 import com.android.uiautomator.core.UiDevice;
 import com.android.uiautomator.core.UiObject;
@@ -21,14 +23,14 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	}
 
 	public void testCase() throws UiObjectNotFoundException {
+		UiDevice device = getUiDevice();
 		testClickApplication();
 		testRankPage();
 		testTuiJianPage();
 		testNewApp();
 		testFsBang();
 		testClassify();
-		testGetclassifyTag();
-		testRiseQuick();
+		device.pressBack();//运行完所有test后返回首页
 	}
 
 	/**
@@ -52,6 +54,7 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 					String textName = textview.getText();
 					array.add(textName);
 					textview.click();
+					sleep(2000);
 				}
 			}
 		}
@@ -64,7 +67,6 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	 * @throws UiObjectNotFoundException
 	 */
 	public void testPageLists() throws UiObjectNotFoundException {
-		System.out.println("获取列表app");
 		UiScrollable scrollable = new UiScrollable(
 				new UiSelector().scrollable(true));
 		scrollable.setAsVerticalList();
@@ -91,54 +93,49 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	 * @throws UiObjectNotFoundException
 	 */
 	public void testGetItemName() throws UiObjectNotFoundException {
-		System.out.println("获取appname名称-点击某个app进入详情");
 		UiDevice device = getUiDevice();
 		UiObject appname = new UiObject(
 				new UiSelector()
 						.resourceId("com.mappn.gfan:id/common_list_item_name"));
-		String appName = appname.getText();
 		sleep(5000);
-		System.out.println("app名称为 ： " + appName);
+		String appName = null;
+		try {
+			appName = appname.getText();
+			System.out.println("点击的appname名称为 ： " + appName);
+		} catch (Exception e1) {
+			System.out.println("分类页面未加载出来");
+		}
 		appname.click();
 		sleep(2000);
 		UiObject name = new UiObject(
 				new UiSelector().resourceId("com.mappn.gfan:id/app_name"));
 		try {
 			if (appName.equals(name.getText())) {
-				System.out.println("appname是否一致： "
+				System.out.println("列表中的appname与详情页的appname是否一致： "
 						+ appName.equals(name.getText()));
 			}
 		} catch (Exception e) {
 			File path = new File("sdcard/Download/filename.png");
 			device.takeScreenshot(path);
 			e.printStackTrace();
+			System.out.println("列表中的appname与详情页的appname不一致");
 		}
 		device.pressBack();
-		UiObject updateBtn = new UiObject(new UiSelector().text("更新"));
-		UiObject downloadBtn = new UiObject(new UiSelector().text("下载"));
-		UiObject install = new UiObject(new UiSelector().text("安装"));
-		UiObject open = new UiObject(new UiSelector().text("打开"));
-		UiObject contin = new UiObject(new UiSelector().text("暂停"));
-		UiObject stop = new UiObject(new UiSelector().text("继续"));
-		if (updateBtn.exists()) {
-			updateBtn.click();
-		} else if (install.exists()) {
-			install.click();
-			UiObject cancleinstall = new UiObject(
-					new UiSelector()
-							.resourceId("com.android.packageinstaller:id/cancel_button"));
-			cancleinstall.click();
-		} else if (contin.exists()) {
-			contin.click();
-		} else if (downloadBtn.exists()) {
-			downloadBtn.click();
-		} else if (stop.exists()) {
-			stop.click();
-		} else if (open.exists()) {
-			open.click();
-			sleep(1000);
-			device.pressBack();
-		}
+		/*
+		 * UiObject updateBtn = new UiObject(new UiSelector().text("更新"));
+		 * UiObject downloadBtn = new UiObject(new UiSelector().text("下载"));
+		 * UiObject install = new UiObject(new UiSelector().text("安装"));
+		 * UiObject open = new UiObject(new UiSelector().text("打开")); UiObject
+		 * contin = new UiObject(new UiSelector().text("暂停")); UiObject stop =
+		 * new UiObject(new UiSelector().text("继续")); if (updateBtn.exists()) {
+		 * updateBtn.click(); } else if (install.exists()) { install.click();
+		 * UiObject cancleinstall = new UiObject( new UiSelector()
+		 * .resourceId("com.android.packageinstaller:id/cancel_button"));
+		 * cancleinstall.click(); } else if (contin.exists()) { contin.click();
+		 * } else if (downloadBtn.exists()) { downloadBtn.click(); } else if
+		 * (stop.exists()) { stop.click(); } else if (open.exists()) {
+		 * open.click(); sleep(1000); device.pressBack(); }
+		 */
 	}
 
 	/**
@@ -153,7 +150,7 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	}
 
 	/**
-	 * 排行页面 通过listPage()方法获取列表页面的app名称 通过getItemName()方法点击进入应用详情并返回
+	 * 排行页面 通过testPageLists()方法获取列表页面的app名称 通过testGetItemName()方法点击进入应用详情并返回
 	 * 
 	 * @throws UiObjectNotFoundException
 	 */
@@ -166,7 +163,7 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	}
 
 	/**
-	 * 推荐页面 通过listPage()方法获取列表页面的app名称 通过getItemName()方法点击进入应用详情并返回
+	 * 推荐页面 通过testPageLists()方法获取列表页面的app名称 通过testGetItemName()方法点击进入应用详情并返回
 	 * 
 	 * @throws UiObjectNotFoundException
 	 */
@@ -179,7 +176,7 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	}
 
 	/**
-	 * 新品页面 通过listPage()方法获取列表页面的app名称 通过getItemName()方法点击进入应用详情并返回
+	 * 新品页面 通过testPageLists()方法获取列表页面的app名称 通过testGetItemName()方法点击进入应用详情并返回
 	 * 
 	 * @throws UiObjectNotFoundException
 	 */
@@ -207,10 +204,6 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 		UiScrollable scrollable = new UiScrollable(
 				new UiSelector().scrollable(true));
 		scrollable.setAsVerticalList();
-		/*sleep(1000);
-		device.click(300, 500);
-		sleep(5000);
-		device.pressBack();*/
 	}
 
 	/**
@@ -219,7 +212,6 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	 * @throws UiObjectNotFoundException
 	 */
 	public void testClassify() throws UiObjectNotFoundException {
-		System.out.println("获取[分类]并且挨个点击进入分类页面");
 		UiDevice device = getUiDevice();
 		device.click(100, 250);
 		UiScrollable scrollable = new UiScrollable(
@@ -229,6 +221,16 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 		UiCollection coll = new UiCollection(
 				new UiSelector().resourceId("com.mappn.gfan:id/baselistview"));
 		if (coll.exists()) {
+			try {
+				UiObject category = new UiObject(
+						new UiSelector()
+								.resourceId("com.mappn.gfan:id/tv_category_1"));
+				Assert.assertEquals(true, category.exists());
+				System.out.println("分类模块是否存在： " + category.exists());
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
 			int linearCount = coll.getChildCount(new UiSelector()
 					.resourceId("com.mappn.gfan:id/tv_category_1"));
 			for (int i = 0; i < linearCount; i++) {
@@ -236,9 +238,10 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 						"com.mappn.gfan:id/tv_category_1").instance(i));
 				if (textview.exists()) {
 					lists.add(textview.getText());
+					sleep(2000);
+					System.out.println("每个分类模块下的子分类名称： " + textview.getText());
 					textview.click();
-					System.out.println("二级分类下的子分类名称： " + textview.getText() );
-					testGetclassifyTag();
+					testGetClassifyTag();
 					device.pressBack();
 				}
 			}
@@ -247,12 +250,11 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	}
 
 	/**
-	 * 获取分类页面子类页面的二级标签
+	 * 获取分类页面每个分类下的子分类
 	 * 
 	 * @throws UiObjectNotFoundException
 	 */
-	public void testGetclassifyTag() throws UiObjectNotFoundException {
-		System.out.println("分类子类-二级标签");
+	public void testGetClassifyTag() throws UiObjectNotFoundException {
 		testGetSecondTags();
 		testGetItemName();
 		testRiseQuick();
