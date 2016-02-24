@@ -25,7 +25,7 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	public void testCase() throws UiObjectNotFoundException {
 		UiDevice device = getUiDevice();
 		testClickApplication();
-		testRankPage();
+		testRank();
 		testTuiJianPage();
 		testNewApp();
 		testFsBang();
@@ -66,7 +66,7 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	 * 
 	 * @throws UiObjectNotFoundException
 	 */
-	public void testPageLists() throws UiObjectNotFoundException {
+	public void testGetAppName() throws UiObjectNotFoundException {
 		UiScrollable scrollable = new UiScrollable(
 				new UiSelector().scrollable(true));
 		scrollable.setAsVerticalList();
@@ -92,7 +92,7 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	 * 
 	 * @throws UiObjectNotFoundException
 	 */
-	public void testGetItemName() throws UiObjectNotFoundException {
+	public void testJudgeAppName() throws UiObjectNotFoundException {
 		UiDevice device = getUiDevice();
 		UiObject appname = new UiObject(
 				new UiSelector()
@@ -154,12 +154,12 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	 * 
 	 * @throws UiObjectNotFoundException
 	 */
-	public void testRankPage() throws UiObjectNotFoundException {
+	public void testRank() throws UiObjectNotFoundException {
 		UiDevice device = getUiDevice();
 		System.out.println("[排行]");
 		device.click(250, 250);
-		testPageLists();
-		testGetItemName();
+		testGetAppName();
+		testJudgeAppName();
 	}
 
 	/**
@@ -171,8 +171,8 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 		UiDevice device = getUiDevice();
 		System.out.println("[推荐]");
 		device.click(400, 250);
-		testPageLists();
-		testGetItemName();
+		testGetAppName();
+		testJudgeAppName();
 	}
 
 	/**
@@ -184,8 +184,8 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 		UiDevice device = getUiDevice();
 		System.out.println("[新品]");
 		device.click(530, 250);
-		testPageLists();
-		testGetItemName();
+		testGetAppName();
+		testJudgeAppName();
 	}
 
 	/**
@@ -241,7 +241,7 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 					sleep(2000);
 					System.out.println("每个分类模块下的子分类名称： " + textview.getText());
 					textview.click();
-					testGetClassifyTag();
+					testClassifyApp();
 					device.pressBack();
 				}
 			}
@@ -254,12 +254,12 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 	 * 
 	 * @throws UiObjectNotFoundException
 	 */
-	public void testGetClassifyTag() throws UiObjectNotFoundException {
+	public void testClassifyApp() throws UiObjectNotFoundException {
 		testGetSecondTags();
-		testGetItemName();
+		testJudgeAppName();
 		testRiseQuick();
 		testNewApp();
-		testRankPage();
+		testRank();
 		testTuiJianPage();
 	}
 
@@ -272,8 +272,8 @@ public class ApplicationPageCase extends UiAutomatorTestCase {
 		UiDevice device = getUiDevice();
 		System.out.println("分类子类-[上升最快]");
 		device.click(620, 250);
-		testPageLists();
-		testGetItemName();
+		testGetAppName();
+		testJudgeAppName();
 	}
 
 }
