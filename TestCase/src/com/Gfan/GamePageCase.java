@@ -35,7 +35,7 @@ public class GamePageCase extends UiAutomatorTestCase {
 	}
 
 	/**
-	 * 后去游戏page二级标签
+	 * 获取游戏page二级标签
 	 * 
 	 * @throws UiObjectNotFoundException
 	 */

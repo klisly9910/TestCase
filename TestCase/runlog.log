@@ -30138,3 +30138,2479 @@ Tests run: 1,  Failures: 0,  Errors: 1
 
 INSTRUMENTATION_STATUS_CODE: -1
 
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+1578 KB/s (19442 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in testCase:
+
+junit.framework.AssertionFailedError: expected:<true> but was:<false>
+
+	at com.Gfan.CampaignPageCase.testGetCaimpAPP(CampaignPageCase.java:66)
+
+	at com.Gfan.CampaignPageCase.testCase(CampaignPageCase.java:28)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: expected:<true> but was:<false>
+
+	at com.Gfan.CampaignPageCase.testGetCaimpAPP(CampaignPageCase.java:66)
+
+	at com.Gfan.CampaignPageCase.testCase(CampaignPageCase.java:28)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 3.891
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1458 KB/s (19430 bytes in 0.013s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 1个app
+
+活动结束时间：2016-01-25
+
+2016-03-01
+
+活动页面appname：[机锋活动]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 4.085
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1897 KB/s (19441 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in testCase:
+
+junit.framework.AssertionFailedError: expected:<true> but was:<false>
+
+	at com.Gfan.CampaignPageCase.testCaimpTask(CampaignPageCase.java:85)
+
+	at com.Gfan.CampaignPageCase.testGetCaimpAPP(CampaignPageCase.java:70)
+
+	at com.Gfan.CampaignPageCase.testCase(CampaignPageCase.java:28)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: expected:<true> but was:<false>
+
+	at com.Gfan.CampaignPageCase.testCaimpTask(CampaignPageCase.java:85)
+
+	at com.Gfan.CampaignPageCase.testGetCaimpAPP(CampaignPageCase.java:70)
+
+	at com.Gfan.CampaignPageCase.testCase(CampaignPageCase.java:28)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 4.005
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1355 KB/s (19453 bytes in 0.014s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 10.845
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1265 KB/s (19454 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 13.513
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1582 KB/s (19459 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 13.544
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1901 KB/s (19480 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.817
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1914 KB/s (19625 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+活动描述：天天酷跑3D携电影级3D场景来袭，在这个冬天让大家一起动起来吧！戳戳“下载”就有惊喜，神秘奖品正蓄势待发等着到你碗里，游戏内还有更多精彩活动。
+
+
+活动结束后3-5个工作日内统一发放奖品。
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.702
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+6397 KB/s (19667 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+活动描述：天天酷跑3D携电影级3D场景来袭，在这个冬天让大家一起动起来吧！戳戳“下载”就有惊喜，神秘奖品正蓄势待发等着到你碗里，游戏内还有更多精彩活动。
+
+
+活动结束后3-5个工作日内统一发放奖品。
+
+活动logo是否存在：true
+
+活动状态标志是否存在：true
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.828
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1371 KB/s (19676 bytes in 0.014s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+活动描述：天天酷跑3D携电影级3D场景来袭，在这个冬天让大家一起动起来吧！戳戳“下载”就有惊喜，神秘奖品正蓄势待发等着到你碗里，游戏内还有更多精彩活动。
+
+
+活动结束后3-5个工作日内统一发放奖品。
+
+活动logo是否存在：true
+
+活动状态标志是否存在：true
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动时间已经结束
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 8.295
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1478 KB/s (19690 bytes in 0.013s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+活动描述：天天酷跑3D携电影级3D场景来袭，在这个冬天让大家一起动起来吧！戳戳“下载”就有惊喜，神秘奖品正蓄势待发等着到你碗里，游戏内还有更多精彩活动。
+
+
+活动结束后3-5个工作日内统一发放奖品。
+
+活动logo是否存在：true
+
+活动状态标志是否存在：true
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动时间已经结束
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 9.72
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+3848 KB/s (19785 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+活动描述：天天酷跑3D携电影级3D场景来袭，在这个冬天让大家一起动起来吧！戳戳“下载”就有惊喜，神秘奖品正蓄势待发等着到你碗里，游戏内还有更多精彩活动。
+
+
+活动结束后3-5个工作日内统一发放奖品。
+
+活动logo是否存在：true
+
+活动状态标志是否存在：true
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动时间已经结束
+
+app元素：[机锋活动, 天天酷跑3D邀您一起快跑, 活动时间 :]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 9.871
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1628 KB/s (20023 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+活动描述：天天酷跑3D携电影级3D场景来袭，在这个冬天让大家一起动起来吧！戳戳“下载”就有惊喜，神秘奖品正蓄势待发等着到你碗里，游戏内还有更多精彩活动。
+
+
+活动结束后3-5个工作日内统一发放奖品。
+
+活动logo是否存在：true
+
+活动状态标志是否存在：true
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动时间已经结束
+
+任务的icon是否存在： true
+
+任务的name是否存在： trueappname :天天酷跑3D
+
+任务的amount是否存在： trueamount :59万+
+
+任务的score是否存在： truescore :3.5评分
+
+任务的size是否存在： truesize :185M
+
+任务的size是否存在： truedes :《枪神纪》原创团队共同打造的腾讯首款3D
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 10.068
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1957 KB/s (20054 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+活动描述：天天酷跑3D携电影级3D场景来袭，在这个冬天让大家一起动起来吧！戳戳“下载”就有惊喜，神秘奖品正蓄势待发等着到你碗里，游戏内还有更多精彩活动。
+
+
+活动结束后3-5个工作日内统一发放奖品。
+
+活动logo是否存在：true
+
+活动状态标志是否存在：true
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动时间已经结束
+
+任务的icon是否存在： true
+
+任务的name是否存在： true ;appname :天天酷跑3D
+
+任务的amount是否存在： true ;amount :59万+
+
+任务的score是否存在： true ;score :3.5评分
+
+任务的size是否存在： true ;size :185M
+
+任务的des是否存在： true ;des :《枪神纪》原创团队共同打造的腾讯首款3D
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 9.86
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1153 KB/s (20088 bytes in 0.017s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in testCase:
+
+junit.framework.AssertionFailedError: expected:<true> but was:<false>
+
+	at com.Gfan.CampaignPageCase.testGetCaimpAPP(CampaignPageCase.java:57)
+
+	at com.Gfan.CampaignPageCase.testCase(CampaignPageCase.java:28)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: expected:<true> but was:<false>
+
+	at com.Gfan.CampaignPageCase.testGetCaimpAPP(CampaignPageCase.java:57)
+
+	at com.Gfan.CampaignPageCase.testCase(CampaignPageCase.java:28)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 3.186
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1400 KB/s (20088 bytes in 0.014s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in testCase:
+
+junit.framework.AssertionFailedError: expected:<true> but was:<false>
+
+	at com.Gfan.CampaignPageCase.testGetCaimpAPP(CampaignPageCase.java:57)
+
+	at com.Gfan.CampaignPageCase.testCase(CampaignPageCase.java:28)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: expected:<true> but was:<false>
+
+	at com.Gfan.CampaignPageCase.testGetCaimpAPP(CampaignPageCase.java:57)
+
+	at com.Gfan.CampaignPageCase.testCase(CampaignPageCase.java:28)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 3.195
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3267 KB/s (20091 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+活动描述：天天酷跑3D携电影级3D场景来袭，在这个冬天让大家一起动起来吧！戳戳“下载”就有惊喜，神秘奖品正蓄势待发等着到你碗里，游戏内还有更多精彩活动。
+
+
+活动结束后3-5个工作日内统一发放奖品。
+
+活动logo是否存在：true
+
+活动状态标志是否存在：true
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动时间已经结束
+
+任务的icon是否存在： true
+
+任务的name是否存在： true ;appname :天天酷跑3D
+
+任务的amount是否存在： true ;amount :59万+
+
+任务的score是否存在： true ;score :3.5评分
+
+任务的size是否存在： true ;size :185M
+
+任务的des是否存在： true ;des :《枪神纪》原创团队共同打造的腾讯首款3D
+
+任务的hot是否存在： true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 9.892
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1306 KB/s (20090 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+活动描述：天天酷跑3D携电影级3D场景来袭，在这个冬天让大家一起动起来吧！戳戳“下载”就有惊喜，神秘奖品正蓄势待发等着到你碗里，游戏内还有更多精彩活动。
+
+
+活动结束后3-5个工作日内统一发放奖品。
+
+活动logo是否存在：true
+
+活动状态标志是否存在：true
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动时间已经结束
+
+任务的icon是否存在： true
+
+任务的name是否存在： true ;appname :天天酷跑3D
+
+任务的amount是否存在： true ;amount :59万+
+
+任务的score是否存在： true ;score :3.5评分
+
+任务的size是否存在： true ;size :185M
+
+任务的des是否存在： true ;des :《枪神纪》原创团队共同打造的腾讯首款3D
+
+任务的hot是否存在： true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 9.9
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Github\TestCase\TestCase\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3936 KB/s (20165 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in testCase:
+
+junit.framework.AssertionFailedError: expected:<true> but was:<false>
+
+	at com.Gfan.CampaignPageCase.testGetCaimpAPP(CampaignPageCase.java:58)
+
+	at com.Gfan.CampaignPageCase.testCase(CampaignPageCase.java:28)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: expected:<true> but was:<false>
+
+	at com.Gfan.CampaignPageCase.testGetCaimpAPP(CampaignPageCase.java:58)
+
+	at com.Gfan.CampaignPageCase.testCase(CampaignPageCase.java:28)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 3.184
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for CampaignPageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\CampaignPageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1639 KB/s (20165 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.CampaignPageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+活动页面有 2个app
+
+活动页面appname：[活动, 天天酷跑3D邀您一起快跑]
+
+活动描述：天天酷跑3D携电影级3D场景来袭，在这个冬天让大家一起动起来吧！戳戳“下载”就有惊喜，神秘奖品正蓄势待发等着到你碗里，游戏内还有更多精彩活动。
+
+
+活动结束后3-5个工作日内统一发放奖品。
+
+活动logo是否存在：true
+
+活动状态标志是否存在：true
+
+活动结束时间：2016-01-25
+
+当前系统时间：2016-03-01
+
+活动时间已经结束
+
+任务的icon是否存在： true
+
+任务的name是否存在： true ;appname :天天酷跑3D
+
+任务的amount是否存在： true ;amount :59万+
+
+任务的score是否存在： true ;score :3.5评分
+
+任务的size是否存在： true ;size :185M
+
+任务的des是否存在： true ;des :《枪神纪》原创团队共同打造的腾讯首款3D
+
+任务的hot是否存在： true
+
+任务的search是否存在： true
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.CampaignPageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 13.962
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Github\TestCase\TestCase\build.xml
+Buildfile: E:\Github\TestCase\TestCase\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for GamePageCase...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Github\TestCase\TestCase\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Github\TestCase\TestCase\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Github\TestCase\TestCase\bin\GamePageCase.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1513 KB/s (20165 bytes in 0.013s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.Gfan.GamePageCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.GamePageCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+有 5个二级标签
+
+有 5个二级标签
+
+secondTags :[游戏, 分类, 推荐, 首发, 排行]
+
+有6个三级标签
+
+三级标签为： 游戏
+
+列表中appname： [大战国樱花与刀, 变形金刚：地球战争, 风暴帝国, 割绳子：魔法]
+
+三级标签为： 分类
+
+列表中appname： []
+
+三级标签为： 推荐
+
+列表中appname： [大战国樱花与刀, 遗落战境, 开心消消乐（官方版）, 风暴帝国]
+
+三级标签为： 首发
+
+列表中appname： [大战国樱花与刀, 变形金刚：地球战争, 风暴帝国, 割绳子：魔法]
+
+三级标签为： 排行
+
+列表中appname： [开心消消乐（官方版）, 变形金刚：地球战争, 球球大作战, 我的世界]
+
+三级标签为： 礼品中心
+
+列表中appname： []
+
+threeTags : [游戏, 分类, 推荐, 首发, 排行, 礼品中心]
+
+列表中appname： []
+
+分类页面未加载出来
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/common_list_item_name]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.GamePageCase.testJudgeAppName(GamePageCase.java:109)
+
+	at com.Gfan.GamePageCase.testTuiJian(GamePageCase.java:171)
+
+	at com.Gfan.GamePageCase.testCase(GamePageCase.java:28)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.Gfan.GamePageCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/common_list_item_name]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.Gfan.GamePageCase.testJudgeAppName(GamePageCase.java:109)
+
+	at com.Gfan.GamePageCase.testTuiJian(GamePageCase.java:171)
+
+	at com.Gfan.GamePageCase.testCase(GamePageCase.java:28)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 72.71
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
